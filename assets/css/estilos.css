@@ -1,0 +1,1011 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Oswald, Arial;
+  font-weight: normal;
+}
+#miHeader {
+  background: #fff;
+  border-bottom: solid 4px #666;
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  padding: 20px 0 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  z-index: 999;
+}
+#miHeader #logo {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 25%;
+}
+#miHeader #logo a {
+  color: #fb936d;
+  font-family: Oswald;
+  text-transform: uppercase;
+}
+#miHeader #logo a:hover {
+  color: #666;
+}
+#miHeader #navHeader {
+  display: block;
+  float: right;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 70%;
+}
+#miHeader #navHeader ul {
+  display: block;
+  margin: 35px auto 0;
+  width: 95%;
+}
+#miHeader #navHeader ul li {
+  display: inline-block;
+  padding: 15px;
+}
+#miHeader #navHeader ul li a {
+  color: #555;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+#miHeader #navHeader ul li a:hover {
+  color: #b4be00;
+}
+.mobile-toggle {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 22px;
+  top: 30px;
+  width: 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+.open-nav .mobile-toggle {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+#miContenedor {
+  clear: both;
+  margin-top: 25px;
+}
+#miContenedor section {
+  clear: both;
+  padding: 85px 0 0 0;
+}
+#miContenedor section h2 {
+  padding: 30px;
+}
+#miContenedor section #inicio {
+  margin: 0;
+  padding: 0;
+}
+#miContenedor section #inicio #contenido {
+  clear: both;
+  margin: 0;
+  padding: 10px 50px;
+}
+#miContenedor section #inicio #contenido #inicioImagen {
+  display: block;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 900px;
+}
+#miContenedor section #inicio #contenido #inicioImagen img {
+  border: solid 1px #999;
+  padding: 2px;
+}
+#miContenedor section #inicio #contenido #detalle {
+  display: none;
+  padding: 30px;
+}
+#miContenedor section #inicio #contenido #botonDetalle i {
+  color: #ccc;
+  font-size: 20px;
+  padding: 10px;
+}
+#miContenedor section #inicio #barraGris {
+  background: #ccc;
+  clear: both;
+  display: inline-block;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+}
+#miContenedor section #inicio #barraGris ul li {
+  display: inline;
+}
+#miContenedor section #inicio #barraGris #headerRedes {
+  display: inline-block;
+  margin: 5px 0 0 90px;
+  padding: 0;
+  width: 150px;
+}
+#miContenedor section #inicio #barraGris #headerRedes li {
+  margin: 0;
+  padding: 5px;
+}
+#miContenedor section #inicio #barraGris #headerRedes li a {
+  line-height: 35px;
+}
+#miContenedor section #frase {
+  background: #fff;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#miContenedor section #frase #franja {
+  background: #bebebe;
+  color: #fff;
+  display: inline-block;
+  margin: 0 0 -5 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+#miContenedor section #frase #franja h4 {
+  display: inline-block;
+  float: left;
+  font-size: 2em;
+  line-height: 35px;
+  overflow: hidden;
+  padding: 10px;
+  width: 92%;
+}
+#miContenedor section #frase #franja a#botonDetalle {
+  color: #fff;
+  display: inline-block;
+  min-width: 20px;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  top: 20px;
+  width: 3%;
+}
+#miContenedor section #frase #presentacion {
+  background: #fff;
+  border-top: solid 1px #bebebe;
+  display: block;
+  margin: 0 auto;
+  max-width: 1020px;
+  overflow: hidden;
+  padding: 20px 10px;
+  width: 100%;
+}
+#miContenedor section #frase #presentacion .bloquePresentacion {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}
+#miContenedor section #frase #presentacion .bloquePresentacion p {
+  margin: 0;
+  padding: 15px;
+}
+#miContenedor section #historia {
+  display: block;
+  padding: 0;
+  width: 100%;
+}
+#miContenedor section #historia h2 {
+  border-bottom: solid 2px #b4be00;
+  padding: 0 0 2px 0;
+  width: 65px;
+}
+#miContenedor section #historia ul#numeros {
+  margin: 100px auto;
+  width: 100%;
+}
+#miContenedor section #historia ul#numeros li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 16%;
+}
+#miContenedor section #historia ul#numeros li p {
+  font-size: 24px;
+}
+#miContenedor section #historia #lineaTiempo {
+  margin: 20px auto;
+  padding: 0;
+  width: 100%;
+}
+#miContenedor section #historia #lineaTiempo ol {
+  list-style-type: none;
+}
+#miContenedor section #historia #lineaTiempo .horizontal-timeline .events-content li {
+  margin: 0 auto;
+  width: 90%;
+}
+#miContenedor section #historia #lineaTiempo ul li {
+  color: #b4be00;
+}
+#miContenedor section #centros {
+  background: #1a1a1a;
+}
+#miContenedor section #centros #menuCentros {
+  vertical-align: middle;
+  width: 100%;
+}
+#miContenedor section #centros #menuCentros li {
+  display: inline-block;
+}
+#miContenedor section #centros #menuCentros li:first-child {
+  padding-right: 20px;
+}
+#miContenedor section #centros #menuCentros li:last-child {
+  background: #b4be00;
+  border-radius: 25px;
+  border-radius: 25px;
+  color: #fff;
+  padding: 9px;
+}
+#miContenedor section #centros #menuCentros li h2 {
+  color: #b4be00;
+}
+#miContenedor section #centros #menuCentros li a {
+  border-radius: 25px;
+  border: 2px solid #b4be00;
+  color: #fff;
+  font-size: 11px;
+  padding: 10px;
+}
+#miContenedor section #centros #menuCentros li a:hover {
+  background: #b4be00;
+}
+#miContenedor section #centros #menuCentros li #mapa {
+  max-width: 700px;
+  width: 100%;
+}
+#miContenedor section #centros #referencias li a {
+  color: #555;
+}
+#miContenedor section #centros #referencias li a:hover {
+  color: #b4be00;
+}
+#miContenedor section #centros #mapa {
+  display: block;
+  float: left;
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+  width: 70%;
+}
+#miContenedor section #centros #referencias {
+  display: block;
+  float: left;
+  position: relative;
+  width: 30%;
+}
+#miContenedor section #centros #referencias ul {
+  color: #fff;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+#miContenedor section #centros #referencias ul li {
+  font-family: verdana;
+  padding: 5px 0;
+}
+#miContenedor section #centros #referencias ul li p {
+  font-size: 12px;
+}
+#miContenedor section #centros #referencias ul li p i {
+  margin-right: 5px;
+}
+#miContenedor section #centros #referencias ol {
+  color: #fff;
+  display: block;
+  font-size: 11px;
+  margin: 10px 0 0 40px;
+  padding: 0;
+}
+#miContenedor section #centros #referencias ol li a {
+  color: #fff;
+}
+#miContenedor section #consultoria #boxConsultoria {
+  float: left;
+  position: relative;
+  width: 66%;
+}
+#miContenedor section #consultoria #boxConsultoria img {
+  margin: 30px 0;
+  width: 90%;
+}
+#miContenedor section #consultoria #formulario {
+  background: #f1f1f1;
+  color: #555;
+  float: left;
+  margin-top: 100px;
+  position: relative;
+  width: 34%;
+}
+#miContenedor section #consultoria #formulario form {
+  padding: 10px 20px 2px;
+}
+#miContenedor section #consultoria #formulario form p {
+  margin: 10px 0;
+  position: relative;
+}
+#miContenedor section #consultoria #formulario form .pregunta {
+  padding-left: 20px;
+}
+#miContenedor section #consultoria #formulario form select {
+  border: solid 1px #b4be00;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  color: #555;
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+}
+#miContenedor section #consultoria #formulario form input[type=text] {
+  background: #f1f1f1;
+  border: none;
+  border-bottom: 2px solid #b4be00;
+  padding: 8px 8px 8px 25px;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+  width: 100%;
+}
+#miContenedor section #consultoria #formulario form input[type=text]:focus {
+  border-color: #b4be00;
+}
+#miContenedor section #consultoria #formulario form textarea {
+  height: 80px;
+  margin-top: 3px;
+  width: 100%;
+}
+#miContenedor section #consultoria #formulario form #acepto {
+  padding: 0;
+  width: 100%;
+}
+#miContenedor section #consultoria #formulario form input[type=submit] {
+  background-color: #b4be00;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  margin: 0 25% 10px;
+  padding: 10px 0;
+  text-align: center;
+  width: 40%;
+}
+#miContenedor section #consultoria #formulario form i {
+  color: #b4be00;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding-right: 30px;
+}
+#miContenedor section #consultoria #formulario form .fa-question-circle {
+  left: 20px;
+  top: 205px;
+}
+#miContenedor section #novedades {
+  background: #bebebe;
+}
+#miContenedor section #novedades .boxSeccionNovedades {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  max-width: 1020px;
+  overflow: hidden;
+  padding: 50px 2% 0;
+  width: 96%;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades {
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades {
+  clear: both;
+  margin: auto;
+  overflow: hidden;
+  padding: 10px;
+  width: 950px;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery {
+  position: relative;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item {
+  background: #fff;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item div {
+  padding: 10px 10px 20px;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item div h3 {
+  font-weight: bold;
+  padding: 20px 10px;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item div p {
+  padding: 0 10px 10px;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item div a {
+  padding: 10px;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades .gallery .crsl-item .mes-activo {
+  opacity: 1 !important;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades .crsl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 50;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades .crsl-nav a.next {
+  color: #999;
+  position: absolute;
+  padding: 10px;
+  right: 0;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades .crsl-nav a.previous {
+  color: #999;
+  position: absolute;
+  padding: 10px;
+  left: 0;
+}
+#miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades .mes-activo {
+  opacity: 1 !important;
+}
+#miContenedor section #novedades .masInfo {
+  background: #404040;
+  display: none;
+  margin: 0 auto;
+  padding-top: 40px;
+  position: relative;
+  width: 100%;
+}
+#miContenedor section #novedades .masInfo #cierre {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#miContenedor section #novedades .masInfo div {
+  margin: 0 auto;
+  padding: 0 20px 20px;
+  width: 950px;
+}
+#miContenedor section #novedades .masInfo div h3 {
+  font-size: 30px;
+  margin: 20px;
+  width: 80%;
+}
+#miContenedor section #novedades .masInfo div p {
+  font-size: 16px;
+  margin: 20px;
+  width: 80%;
+}
+#miContenedor section #postNovedades {
+  background: #bebebe;
+  height: 400px;
+}
+#miContenedor section #banner {
+  background: #fff;
+  color: #bebebe;
+  padding: 50px 0;
+  clear: both;
+  width: 100%;
+}
+#miContenedor section #banner .marquee {
+  box-sizing: border-box;
+  color: #bebebe;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  font-size: 400px;
+  padding-left: em;
+  position: relative;
+  text-transform: uppercase;
+}
+#miContenedor section #banner .marquee span {
+  animation: marquee 15s linear infinite;
+  display: inline-block;
+  padding-left: 100%;
+  text-indent: 0;
+}
+#miContenedor section #banner .marquee spanhover {
+  animation-play-state: paused;
+}
+#miContenedor section #banner .marquee buton.slick-prev.slick-arrow {
+  color: #ccc;
+}
+#miContenedor section #formularioSolicitud {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+#miContenedor section #formularioSolicitud #barraFormulario {
+  background: #bebebe;
+  padding: 20px 0;
+  position: relative;
+}
+#miContenedor section #formularioSolicitud #barraFormulario #botFormularioSolicitud {
+  color: #555;
+  display: inline-block;
+  min-width: 20px;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  top: 15px;
+  width: 3%;
+}
+#miContenedor section #formularioSolicitud #barraFormulario #botFormularioSolicitud:hover {
+  color: #555;
+}
+#miContenedor section #formularioSolicitud #barraFormulario #botFormulario h2 {
+  border: solid 1px;
+  color: #555;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 200px;
+}
+#miContenedor section #formularioSolicitud #barraFormulario #botFormulario h2:hover {
+  color: #555;
+}
+#miContenedor section #formularioSolicitud #formulario2 {
+  display: block;
+  clear: both;
+  height: 400px;
+  margin: 0 auto;
+  max-width: 1020px;
+  overflow: hidden;
+  padding: 10px;
+  width: 100%;
+}
+#miContenedor section #formularioSolicitud #formulario2 h4 {
+  color: #fff;
+  margin-left: 20px;
+}
+#miContenedor section #formularioSolicitud #formulario2 form {
+  padding: 20px;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputIcono {
+  float: left;
+  margin: 1%;
+  position: relative;
+  width: 48%;
+  left: 0px;
+  top: 0px;
+  height: 37px;
+  display: block;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputIcono .obligatorio {
+  color: #fff;
+  position: absolute;
+  right: -15px;
+  top: 15px;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputIcono input[type=text] {
+  background: #f9f9f9;
+  border: solid 1px #b4be00;
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  margin: 5px;
+  outline: none;
+  padding: 8px 10px 8px 35px;
+  transition: 0.3s;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputIcono i {
+  color: #b4be00;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  padding-right: 30px;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputIcono input[type=submit] {
+  background-color: #b4be00;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  margin: 0 auto;
+  padding: 16px 32px;
+  width: 50%;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputArchivo {
+  background: #f9f9f9;
+  border: solid 1px #b4be00;
+  display: block;
+  float: left;
+  margin: 15px;
+  padding: 0;
+  position: relative;
+  width: 98%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputArchivo .explicacion {
+  color: #555;
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  top: 15px;
+  left: 40px;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputArchivo label {
+  background-color: #b4be00;
+  color: #fff;
+  display: block;
+  float: right;
+  height: 100%;
+  padding: 15px;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputArchivo label:hover,
+#miContenedor section #formularioSolicitud #formulario2 form p.inputArchivo label:focus {
+  background-color: #555;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputArchivo i {
+  color: #b4be00;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  padding-right: 30px;
+}
+#miContenedor section #formularioSolicitud #formulario2 form input[type=file] {
+  cursor: pointer;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputCheckbox {
+  display: block;
+  float: left;
+  left: 0px;
+  margin: 1%;
+  position: relative;
+  top: 0px;
+  width: 48%;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputCheckbox input[type=checkbox] {
+  margin-left: 10px;
+}
+#miContenedor section #formularioSolicitud #formulario2 form p.inputCheckbox .txtCheckbox {
+  color: #555;
+  font-size: 0.8em;
+}
+footer {
+  background: #555;
+  clear: both;
+  padding: 50px 0;
+}
+footer a {
+  color: blanco;
+}
+footer ul#bloquesFooter {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+footer ul#bloquesFooter li {
+  display: inline-block;
+  margin: 0 0 0 1%;
+  vertical-align: top;
+  width: 23%;
+}
+footer ul#bloquesFooter li h5 {
+  padding: 10px;
+  text-transform: uppercase;
+}
+footer ul#bloquesFooter li li {
+  display: block;
+  padding: 5px 10px;
+  width: 100%;
+}
+footer ul#bloquesFooter li li p {
+  font-size: 11px;
+}
+footer ul#bloquesFooter li li p a {
+  color: #fff;
+}
+footer ul#bloquesFooter li li p a:hover {
+  color: #b4be00;
+}
+.boxSeccion {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  min-height: 900px;
+  max-width: 1020px;
+  overflow: hidden;
+  padding: 50px 2%;
+  width: 96%;
+}
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media (max-width: 768px) {
+  #miHeader .mobile-toggle {
+    display: initial;
+  }
+  #miHeader #navHeader {
+    display: none;
+    padding: 0;
+  }
+  #miHeader #navHeader ul li a {
+    display: none;
+  }
+  #miHeader #navHeader.open-nav {
+    background-color: #fff;
+    display: block;
+    width: 100%;
+  }
+  #miHeader #navHeader.open-nav ul li {
+    margin: 5px;
+    width: 100%;
+  }
+  #miHeader #navHeader.open-nav ul li a {
+    display: initial;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+  }
+  #miContenedor section #frase #franja h4 {
+    width: 80%;
+  }
+  #miContenedor section #frase #presentacion {
+    margin: 10px auto;
+    position: relative;
+    width: 100%;
+  }
+  #miContenedor section #frase #presentacion #textos .bloquePresentacion {
+    margin: 0 2%;
+    width: 60%;
+  }
+  #miContenedor section #frase #presentacion #imagen.bloquePresentacion {
+    display: block;
+    margin: 1%;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    vertical-align: top;
+    width: 30%;
+  }
+  #miContenedor section h2 {
+    margin: 10px 20px;
+  }
+  #miContenedor section #historia h2 {
+    margin-top: 30px;
+  }
+  #miContenedor section #historia ul#numeros {
+    margin-left: 6%;
+    margin-right: 5%;
+    width: 90%;
+  }
+  #miContenedor section #historia ul#numeros li {
+    margin: 1% 1% 1% 0;
+    text-align: center;
+    width: 31%;
+  }
+  #miContenedor section #historia #lineaTiempo {
+    margin-left: 6%;
+    margin-right: 5%;
+    width: 90%;
+  }
+  #miContenedor section #historia #lineaTiempo #example {
+    margin: 0 auto;
+    width: 95%;
+  }
+  #miContenedor section #centros {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  #miContenedor section #consultoria {
+    margin: 20px auto;
+    position: relative;
+    width: 100%;
+  }
+  #miContenedor section #consultoria #boxConsultoria {
+    margin-left: 10px;
+    width: 46%;
+  }
+  #miContenedor section #consultoria #formulario {
+    width: 50%;
+  }
+  #miContenedor section #consultoria #formulario input[type=text] {
+    width: 100%;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades {
+    margin: auto;
+    width: 96%;
+  }
+  #miContenedor section #novedades .boxSeccionNovedades #contenedorNovedades #galeriaNovedades {
+    margin: auto;
+    width: 96%;
+  }
+  #miContenedor section #novedades .masInfo {
+    width: 100%;
+  }
+  #miContenedor section #novedades .masInfo div {
+    width: 90%;
+  }
+  .boxSeccion {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  #miContenedor section h2 {
+    margin: 0;
+    text-align: center;
+  }
+  #miContenedor section #inicio #barraGris {
+    display: block;
+  }
+  #miContenedor section #inicio #barraGris ul#headerRedes {
+    margin-left: 10px;
+    padding: 0;
+    width: 40%;
+  }
+  #miContenedor section #inicio #barraGris ul#circulitos {
+    font-size: 16px;
+    margin-right: 10px;
+    width: 50%;
+  }
+  #miContenedor section #historia ul#numeros {
+    margin-left: 5%;
+    width: 96%;
+  }
+  #miContenedor section #historia ul#numeros li {
+    width: 45%;
+  }
+  #miContenedor section #historia ul#numeros li i {
+    width: 100%;
+  }
+  #miContenedor section #centros #menuCentros li:first-child {
+    padding-right: 0;
+  }
+  #miContenedor section #centros #menuCentros li a#centrosIntegrales,
+  #miContenedor section #centros #menuCentros li a#centrosServicios,
+  #miContenedor section #centros #menuCentros li:last-child {
+    display: none;
+  }
+  #miContenedor section #centros #mapa {
+    display: none;
+  }
+  #miContenedor section #centros #referencias {
+    margin: 50px 0 20px 20px;
+    padding-top: 0;
+    width: 80%;
+  }
+  #miContenedor section #consultoria #boxConsultoria {
+    display: none;
+  }
+  #miContenedor section #consultoria #formulario {
+    margin: 10px 2%;
+    width: 96%;
+  }
+  #miContenedor section #novedades #box2 {
+    background: #808080;
+    margin: 20px auto;
+    width: 60%;
+  }
+  #miContenedor section #formularioSolicitud #formulario2 {
+    height: 450px;
+  }
+  #miContenedor section #formularioSolicitud #formulario2 form p.inputIcono {
+    margin: 1%;
+    width: 98%;
+  }
+  #miContenedor section #formularioSolicitud #formulario2 form p.inputArchivo {
+    margin: 10px;
+  }
+  #miContenedor section #formularioSolicitud #formulario2 form p.inputArchivo .explicacion {
+    font-size: 10px;
+    top: 17px;
+    left: 40px;
+  }
+  #miContenedor section #formularioSolicitud #formulario2 form p.inputArchivo .explicacion i {
+    padding-right: 10px;
+  }
+  footer {
+    padding: 20px 10px;
+  }
+  footer ul#bloquesFooter {
+    margin: 0 auto;
+    width: 96%;
+  }
+  footer ul#bloquesFooter li {
+    width: 49%;
+  }
+  footer ul#bloquesFooter li li {
+    padding: 0;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+.fondoVerde {
+  background: #b4be00;
+}
+.fondoGrisClarito {
+  background: #ccc;
+}
+.fondoGrisBe {
+  background: #bebebe;
+}
+.fondoGrisMedio {
+  background: #666;
+}
+.txtBlanco {
+  color: #fff;
+}
+.txtVerde {
+  color: #b4be00;
+}
+.txtGrisClarito {
+  color: #ccc;
+}
+.txtGrisMedio {
+  color: #666;
+}
+.txtGrisOscuro {
+  color: #555;
+}
+.txtGris9 {
+  color: #999;
+}
+.txtNegro {
+  color: #000;
+}
+.txtCeleste {
+  color: #66fefd;
+}
+.txtNaranja {
+  color: #fb936d;
+}
+.txt11 {
+  font-size: 11px;
+}
+.txtNegrita {
+  font-weight: bold;
+}
+.floatRight {
+  float: right;
+}
+.floatLeft {
+  float: left;
+}

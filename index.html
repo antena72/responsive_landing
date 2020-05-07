@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Descripcíon del sitio">
+    <meta name="keywords" content="">
+    <meta name="author" content="Ximena May">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index" />
+    <title>Responsive Landing</title>
+    <!-- External Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <!-- css normalice-->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <!-- timeline -->
+    <link rel="stylesheet" href="assets/css/timeline.css">
+    <!-- fontawesome -->
+    <link href="assets/css/all.min.css" rel="stylesheet"> 
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+<style>
+/* Marquecina */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+
+}
+</style>
+</head>
+
+<body>
+<!-- encabezado -->
+    <header>
+        <div class="main_h" id="miHeader">
+            <div id="logo">
+                <a href="#inicio">
+                    <p><i class="fas fa-fish fa-3x"></i> 
+                    <br>Redfish</p> 
+                </a>
+            </div>
+            <div class="mobile-toggle">
+                <i class="fas fa-2x fa-bars"></i>
+            </div>
+        <!-- barra de navegacion -->
+            <div class="main_h" id="navHeader">
+                <nav>
+                    <ul>
+                        <li><a id="btnHistoria" href="#hist">History</a></li>
+                        <li><a href="#visitanos">Visit</a></li>
+                        <li><a href="#contactanos">Contact</a></li>
+                        <li><a href="#novedades">News</a></li>
+                        <li><a href="#trabaja">Work with us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<div id="miContenedor" class="content">
+    
+   <section>
+        <div id="inicio">
+            <!-- social icons -->
+            <div id="barraGris">
+                <ul id="headerRedes">
+                    <li><a href="#"><i class="txtGris9 fab fa-lg fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="txtGris9 fab fa-lg fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="txtGris9 fab fa-lg fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="txtGris9 fab fa-lg fa-youtube-square"></i></a></li>
+                </ul>                
+            </div>
+            <div id="contenido">
+                <!-- imagen inicio -->
+                    <div id="inicioImagen">
+                        <img src="assets/img/closeup-photo-of-cactus-plants-1054016.jpg" width="100%" alt="">
+                    </div>
+            </div>
+                <!-- fin detalle -->
+            <div id="frase">     
+                <div id="presentacion">
+                    <h3>Lorem</h3>
+                    <div id="textos">
+                        <div class="bloquePresentacion">
+                            <p>Parrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus metus at libero porttitor, at mollis justo eleifend. In dolor felis, efficitur vitae facilisis vitae, suscipit sed nulla. Integefinibus ut ligula consectetur convallis. </p>
+                        </div>
+                        <div class="bloquePresentacion">
+                            <p>Parrafo 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus metus at libero porttitor, at mollis justo eleifend. In dolor felis, efficitur vitae facilisis vitae, suscipit sed nulla. Integefinibus ut ligula consectetur convallis. </p>
+                        </div>
+                        <div class="bloquePresentacion">
+                            <p>Parrafo 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus metus at libero porttitor, at mollis justo eleifend. In dolor felis, efficitur vitae facilisis vitae, suscipit sed nulla. Integefinibus ut ligula consectetur convallis. </p>
+                        </div>
+                    </div>                   
+                    <div id="imagen" class="bloquePresentacion">
+                        <img src="assets/img/imagenNegra.jpg" width="100%" alt="">
+                    </div>
+                </div>
+            
+                <div id="franja">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus metus.</h4>
+                    <a class="floatRight" id="botonDetalle" href="">
+                    <i class="fas fa-times"></i> 
+                    </a>
+                </div>
+            </div>
+        </div>
+            <!-- historia -->
+            <span id="hist"></span>
+            <div id="historia">              
+                <div class="boxSeccion">                  
+                    <h2>History</h2>               
+                    <!-- numeros en movimiento -->
+                        <ul id="numeros">
+                            <li><p><i class="txtGrisMedio fas fa-cat fa-4x"></i><br><span class="count">138000</span></p>
+                            <h5>Lorem</h5><h6 class="txtGrisMedio">Lorem ipsum</h6></li>
+                            <li><p><i class="txtGrisMedio fas fa-dog fa-4x"></i><br> <span class="count">25820</span></p>
+                            <h5>Lorem</h5><h6 class="txtGrisMedio">Lorem ipsum</h6></li>
+                            <li><p><i class="txtGrisMedio fas fa-frog fa-4x"></i> <span class="count">54350</span></p>
+                            <h5>Lorem</h5><h6 class="txtGrisMedio">Lorem ipsum</h6></li>
+                            <li><p><i class="txtGrisMedio fas fa-kiwi-bird fa-4x"></i><br> <span class="count">520</span></p>
+                            <h5>Lorem</h5><h6 class="txtGrisMedio">Lorem ipsum</h6></li>
+                            <li><p><i class="txtGrisMedio fas fa-hippo fa-4x"></i> <br> <span class="count">2720</span></p>
+                            <h5>Lorem</h5><h6 class="txtGrisMedio">Lorem ipsum</h6></li>
+                            <li><p><i class="txtGrisMedio fas fa-otter fa-4x"></i> <br> <span class="count">38</span></p>
+                            <h5>Lorem</h5><h6 class="txtGrisMedio">subtítulo</h6></li>
+                        </ul>
+        
+                    <!-- linea de tiempo -->                    
+                        <div id="lineaTiempo">
+                            <div class="horizontal-timeline" id="example">
+                                <div class="events-content">
+                                    <!-- http://horizontal-timeline.ycodetech.co.uk/#eventContentAnimation -->
+                                <ol>
+                                <li class="selected" data-horizontal-timeline='{"date": "01/01/2006"}'>
+                                    <i class="fas fa-carrot fa-10x"></i>
+                                    <h5>Lorem, ipsum dolor</h5>
+                                    <p>Parrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus metus at libero porttitor, at mollis justo eleifend. In dolor felis, efficitur vitae facilisis vitae, suscipit sed nulla. Integer finibus ut ligula consectetur convallis. </p>  
+                                </li>
+                                <li data-horizontal-timeline='{"date": "01/01/2009"}'>
+                                    <i class="fas fa-air-freshener fa-10x"></i>
+                                    <h5>Lorem, ipsum dolor</h5>
+                                    <p>Parrafo 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus metus at libero porttitor, at mollis justo eleifend. In dolor felis, efficitur vitae facilisis vitae, suscipit sed nulla. Integer finibus ut ligula consectetur convallis. </p>
+                                </li>
+                                <li data-horizontal-timeline='{"date": "01/01/2012"}'>
+                                    <i class="fas fa-bug fa-10x"></i>
+                                    <h5>Lorem, ipsum dolor</h5>
+                                    <p>Parrafo 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus metus at libero porttitor, at mollis justo eleifend. In dolor felis, efficitur vitae facilisis vitae, suscipit sed nulla. Integer finibus ut ligula consectetur convallis. </p>
+                                </li>
+                                <li data-horizontal-timeline='{"date": "01/01/2015"}'>
+                                    <i class="fas fa-brain fa-10x"></i>
+                                    <h5>Lorem, ipsum dolor</h5>
+                                    <p>Parrafo 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus metus at libero porttitor, at mollis justo eleifend. In dolor felis, efficitur vitae facilisis vitae, suscipit sed nulla. Integer finibus ut ligula consectetur convallis. </p>
+                                </li>
+                                <li data-horizontal-timeline='{"date": "01/01/2017"}'>
+                                    <i class="fas fa-cannabis fa-10x"></i>
+                                    <h5>Lorem, ipsum dolor</h5>
+                                    <p>Parrafo 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut luctus metus at libero porttitor, at mollis justo eleifend. In dolor felis, efficitur vitae facilisis vitae, suscipit sed nulla. Integer finibus ut ligula consectetur convallis. </p>
+                                </li>
+                                
+                                </ol>
+                                </div>
+                                </div>
+                        </div>
+                    <!-- fin linea de tiempo -->
+                </div>
+                <!-- fin box -->
+            </div>
+            <!-- centros -->
+            <span id="visitanos"></span>
+            <div id="centros">       
+                
+                <div class="boxSeccion">            
+                    <h2 class="txtVerde">Visit</h2>
+                    <div id="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26327.981802743256!2d-58.59339766141073!3d-34.426812896223495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5a2d0ddb9b1%3A0x2c1a974c67cba1e4!2sTigre%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1588863115642!5m2!1ses!2sar" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div id="referencias">
+                        <ul>
+                            <li><p><i class="txtNaranja fas fa-map-marker-alt fa-2x"></i> </i>Offices</p></li>
+                        </ul>
+                            <ol>
+                                <li><a href="">Lorem</a></li>
+                                <li><a href="">Lorem</a></li>
+                                <li><a href="">Lorem</a></li>
+                                <li><a href="">Lorem</a></li>
+                                <li><a href="">Ultima</a></li>
+                            </ol>
+                        
+                    </div> 
+                </div>
+                
+            </div>
+
+            <!-- consultoria -->
+            <span id="contactanos"></span>
+            <div id="consultoria">
+
+                <div class="boxSeccion">
+                    <h2>Get in touch</h2>
+                    <div id="boxConsultoria">                      
+                        <br>
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                    <img src="assets/img/green-cactus-in-close-up-photography-4272264.jpg" width="100%" alt="">
+                    <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id nam assumenda illum!</h4>
+                    </div>
+                    <div id="formulario">
+                        <form action="" method="" id="formConsulta">
+                            <p class="inputIcono"><input type="text" placeholder="Name" name="nombre" required><i class="fas fa-user"></i>
+                            </p>
+                            <p><i class="fas fa-phone-alt"></i><input type="text" placeholder="Phone" name="telefono" >
+                            </p>
+                            <p><i class="far fa-envelope"></i><input type="text" placeholder="e-mail" name="mail" required>
+                            </p>
+                                                        
+                            <p><textarea name="consulta" placeholder="Haga su consulta" rows="10"></textarea> </textarea></p>
+                            <p>
+                                <input class="submit" type="submit" value="Submit" name="enviar">
+                            </p>
+                        </form>
+                        
+                    </div>
+                    <div id="respuestaFormConsulta">
+                        <div id="message-wait"></div>
+                        <div id="message-warning"> 
+                            <p><i class="fa txtGrisMedio fa-exclamation-circle"></i>
+                            Intente en unos minutos</p>
+                        </div> 
+                       
+                        <div id="message-success">
+                            <p><i class="txtVerde fa fa-check fa-3x"></i>¡Muchas gracias por escribirnos! Pronto nos pondremos en contacto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <!-- novedades dinamic -->
+            <div id="novedades">
+                <div class="boxSeccionNovedades">
+                    <h2>News</h2>
+                    <p>JSON feed news system. Current month is active. More info</p>
+                    <div id="contenedorNovedades">
+                        <div id="nav-05" class="crsl-nav">
+                            <a href="#" class="previous"><i class="fas fa-chevron-left fa-2x"></i></a>
+                            <a href="#" class="next"><i class="fas fa-chevron-right fa-2x"></i></a>
+                        </div>
+                        <div id="galeriaNovedades">
+                            <div class="gallery crsl-items" data-navigation="nav-05">
+                                <div class="crsl-wrap">
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div id="masInfo"></div>
+            </div>
+            <div id="postNovedades">
+
+            </div>
+            <!-- banner -->
+            <span id="trabaja"></span>
+            <div id="banner">      
+                <p class="marquee"><span>Lorem ipsum dolor sit amet!!</span></p>
+            
+            </div> 
+                <!-- formulario -->
+            <div id="formularioSolicitud"> 
+                <div id="formulario2">
+                            <h2>Work with us</h2>
+                            <p>Fill the form and be a part.</p>
+                            <h4>Los campos los campos</h4>
+                            <form id="formSolicitud" action="sendMail.php" method="post" enctype="multipart/form-data">
+                                <p class="inputIcono"><i class="fas fa-user"></i><input type="text" placeholder="Nombre" name="nombre" required><span class="obligatorio">*</span>   
+                                </p>
+                                <p class="inputIcono"><i class="fas fa-user"></i><input type="text" placeholder="Apellidos" name="apellido" required><span class="obligatorio">*</span>   
+                                </p>
+                                <p class="inputIcono"><i class="fas fa-phone-alt"></i><input type="text" placeholder="Teléfono" name="telefono" required><span class="obligatorio">*</span>   
+                                </p>
+                                <p class="inputIcono"><i class="far fa-envelope"></i><input type="text" placeholder="e-mail" name="mail" required><span class="obligatorio">*</span>   
+                                </p>
+                                <p class="inputIcono"><i class="far fa-question-circle"></i><input type="text" placeholder="¿A qué ciudad quieres enviar tu cv?" name="ciudad" >
+                                </p>
+    
+                                <p class="inputIcono"><i class="far fa-question-circle"></i><input type="text" placeholder="¿Qué puesto quiere solicitar?" name="puesto">
+                                </p>
+                                
+                                <p class="inputIcono">
+                                    <input type="submit" value="Submit" name="submit">
+                                </p>
+                            </form>
+                </div>
+               
+                <div id="barraFormulario">
+                    <a id="botFormulario"><h2><i class="fas fa-arrow-down"></i> FORM</h2></a>
+                    <a id="botFormularioSolicitud"><i class="fas fa-plus"></i></a>
+                </div>
+            </div>
+    </section>
+        
+        <!-- footer -->
+<footer class="txtBlanco">
+    <ul id="bloquesFooter">
+        <li id="bloque1" class="boxFooter">
+            <h5>Services</h5>
+            <ul class="lista">
+                <li><a href="#"><p>link 1</a></p></li>
+                <li><a href="#"><p>link 2</a></p></li>
+                <li><a href="#"><p>link 3</a></p></li>
+                <li><a href="#"><p>link 4</a></p></li>
+            </ul>
+        </li>
+        <li id="bloque2" class="boxFooter">
+            <h5>Organization</h5>
+            <ul  class="lista">
+                <li><a href="#"><p>link 1</a></p></li>
+                <li><a href="#"><p>link 2</a></p></li>
+                <li><a href="#"><p>link 3</a></p></li>
+                <li><a href="#"><p>link 4</a></p></li>
+            </ul>
+        </li>
+        <li id="bloque3" class="boxFooter">
+            <h5>Contact</h5>
+            <ul  class="lista">
+                <li><a href="#"><p>link 1</a></p></li>
+                <li><a href="#"><p>link 2</a></p></li>
+                <li><a href="#"><p>link 3</a></p></li>
+                <li><a href="#"><p>link 4</a></p></li>
+            </ul>
+        </li>
+        <li id="bloque4" class="boxFooter">
+            <h5>Social Media</h5>
+            <ul class="lista">
+                <li><a href="#"><p><i class="fab fa-facebook"></i> Facebook</a></p></li>
+                <li><a href="#"><p><i class="fab fa-twitter"></i> Twitter</a></p></li>
+                <li><a href="#"><p><i class="fab fa-instagram"></i> Instagram</a></p></li>
+                <li><a href="#"><p><i class="fab fa-youtube-square"></i> Youtube</a></p></li>
+                <li><a href="#"><p><i class="fab fa-linkedin"></i> LinkedIn</a></p></li>
+            </ul>
+        </li>
+    </ul>
+</footer> 
+    </div>
+
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- line de tiempo -->
+    <script src="assets/js/timeline.js"></script>
+    <!-- texto en movimiento -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- slider -->
+    <script src="assets/js/responsivecarro.js"></script>
+    <script src="assets/js/funciones.js"></script>
+
+</body>
+
+</html>

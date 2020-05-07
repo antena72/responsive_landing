@@ -1,0 +1,851 @@
+verde = #B4BE00
+gris_muy_oscuro = #1A1A1A
+gris_oscuro = #555555
+gris_medio = #666666
+gris_9 = #999999
+gris_clarito = #cccccc
+grisBe = #bebebe
+gris_F1 = #F1F1F1
+gris_F9 = #F9F9F9
+celeste = #66FEFD
+naranja = #FB936D
+
+*   
+    margin 0
+    padding 0
+a 
+    text-decoration none
+ul 
+    list-style-type none
+body 
+    font-family Arial, Helvetica, sans-serif
+h1, h2, h3, h4, h5, h6 
+    font-family Oswald, Arial
+    font-weight normal
+#miHeader
+    background white
+    border-bottom solid 4px gris_medio 
+    display block
+    margin 0
+    overflow hidden
+    position fixed
+    padding 20px 0 5px
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    width 100%
+    z-index 999
+    #logo 
+        display block
+        float left
+        margin 0
+        padding 0 
+        position relative
+        text-align center
+        width 25%
+        a  
+            color naranja
+            font-family Oswald
+            text-transform uppercase
+            &:hover 
+                color gris_medio
+    #navHeader 
+        display block
+        float right
+        margin 0
+        padding 0
+        position relative
+        width 70%
+        ul 
+            display block
+            margin 35px auto 0
+            width 95%
+            li 
+                display inline-block
+                padding 15px  
+                a 
+                    color gris_oscuro 
+                    font-size 1em
+                    text-align center
+                    text-transform uppercase
+                    &:hover 
+                        color verde 
+.mobile-toggle 
+    display none
+    cursor pointer
+    position absolute
+    right 22px
+    top 30px
+    width 30px
+    -webkit-transition all 200ms ease-in
+    -moz-transition all 200ms ease-in
+    transition all 200ms ease-in
+
+.open-nav .mobile-toggle 
+    transform rotate(-90deg)
+    -webkit-transform rotate(-90deg)
+  
+#miContenedor
+    clear both
+    margin-top 25px
+    section 
+        clear both
+        padding 85px 0 0 0
+        h2 
+            padding 30px
+        #inicio
+            margin 0
+            padding 0 
+            #contenido 
+                clear both
+                margin 0
+                padding 10px 50px  
+                #inicioImagen
+                    display block
+                    margin 0 auto
+                    padding 0 20px 
+                    max-width 900px 
+                    img 
+                        border solid 1px gris_9
+                        padding 2px                     
+                #detalle 
+                    display none
+                    padding 30px
+                #botonDetalle i 
+                    color gris_clarito
+                    font-size 20px
+                    padding 10px
+            #barraGris
+                background gris_clarito
+                clear both
+                display inline-block
+                margin 0
+                padding 10px 0
+                width 100%
+                ul 
+                    li      
+                        display inline
+                #headerRedes
+                    display inline-block
+                    margin 5px 0 0 90px
+                    padding 0
+                    width 150px
+                    li 
+                        margin 0
+                        padding 5px
+                        a 
+                            line-height 35px
+
+        #frase 
+            background white
+            display block
+            margin 0 
+            padding 0
+            width 100%        
+            #franja  
+                background grisBe    
+                color white 
+                display inline-block
+                margin 0 0 -5 0
+                padding 0
+                position relative 
+                text-align center
+                width 100%
+                h4                    
+                    display inline-block
+                    float left
+                    font-size 2em
+                    line-height 35px
+                    overflow hidden
+                    padding 10px
+                    width 92%
+                a#botonDetalle
+                    color white
+                    display inline-block
+                    min-width 20px
+                    padding 0
+                    position absolute
+                    right 10px
+                    text-align right
+                    top 20px               
+                    width 3%
+            #presentacion
+                background white
+                border-top solid 1px grisBe
+                display block
+                margin 0 auto
+                max-width 1020px
+                overflow hidden
+                padding 20px 10px
+                width 100%
+                .bloquePresentacion
+                    float left 
+                    margin 0
+                    padding 0
+                    width 25%
+                    p 
+                        margin 0
+                        padding 15px
+        #historia
+            display block
+            padding 0
+            width 100%
+            h2 
+                border-bottom solid 2px verde
+                padding 0 0 2px 0
+                width 65px
+            ul#numeros  
+                margin 100px auto
+                width 100%
+                li  
+                    display inline-block
+                    margin 0
+                    padding 0
+                    text-align center
+                    width 16%
+                    p 
+                        font-size 24px
+            #lineaTiempo
+                margin 20px auto
+                padding 0
+                width 100%
+                ol 
+                    list-style-type none
+                .horizontal-timeline .events-content li
+                    margin 0 auto
+                    width 90%
+                & ul li
+                    color verde
+        #centros
+            background gris_muy_oscuro
+            #menuCentros
+                vertical-align middle
+                width 100%
+                li 
+                    display inline-block
+                    &:first-child
+                        padding-right 20px
+                    &:last-child
+                        background verde
+                        -moz-border-radius 25px 
+                            -moz-border-radius25px               
+                        border-radius 25px 
+                        border-radius 25px  
+                        color white
+                        padding 9px
+                    h2 
+                        color verde
+                    a 
+                        border-radius 25px
+                        border 2px solid verde
+                        color white
+                        font-size 11px
+                        padding 10px
+                        &:hover 
+                            background verde
+                    #mapa
+                        max-width 700px
+                        width 100%
+            #referencias li a
+                color gris_oscuro
+                &:hover
+                    color verde  
+            #mapa 
+                display block
+                float left
+                margin 10px 0
+                position relative
+                overflow hidden
+                width 70%
+            #referencias
+                display block
+                float left
+                position relative
+                width 30%
+                ul 
+                    color white
+                    margin 0 0 0 10px
+                    padding 0
+                    li 
+                        font-family verdana
+                        padding 5px 0
+                        p 
+                            font-size 12px
+                            i 
+                                margin-right 5px
+                ol 
+                    color white
+                    display block
+                    font-size 11px
+                    margin 10px 0 0 40px
+                    padding 0
+                    & li a
+                        color white 
+
+
+        #consultoria
+            #boxConsultoria
+                float left
+                position relative
+                width 66%
+                img 
+                    margin 30px 0
+                    width 90%
+            #formulario
+                background gris_F1
+                color gris_oscuro
+                float left
+                margin-top 100px
+                position relative
+                width 34%
+                form
+                    padding 10px 20px 2px
+                    p   
+                        margin 10px 0 
+                        position relative
+                        
+                    .pregunta   
+                        padding-left 20px
+                    select 
+                        border solid 1px verde
+                        border-radius 4px
+                        background-color gris_F1
+                        color gris_oscuro
+                        margin 0
+                        padding 15px 
+                        width 100%                         
+                    input[type=text]
+                        background gris_F1
+                        border none
+                        border-bottom 2px solid verde;
+                        padding 8px 8px 8px 25px
+                        outline none
+                        box-sizing border-box
+                        transition 0.3s
+                        width 100%
+                        &:focus
+                            border-color verde
+                    textarea 
+                        height 80px
+                        margin-top 3px
+                        width 100%
+                    #acepto
+                        padding 0
+                        width 100%
+                    input[type=submit]
+                        background-color verde
+                        color white
+                        cursor pointer
+                        border none
+                        margin 0 25% 10px
+                        padding 10px 0
+                        text-align center
+                        width 40%
+                    i 
+                        color verde
+                        position absolute
+                        left 0
+                        top 8px
+                        padding-right 30px
+                    .fa-question-circle
+                        left 20px
+                        top 205px
+        
+        #novedades
+            background grisBe
+            .boxSeccionNovedades
+                display block
+                clear both
+                margin 0 auto
+                max-width 1020px
+                overflow hidden
+                padding 50px 2% 0
+                width 96% 
+                #contenedorNovedades
+                    padding 0
+                    position relative
+                    width 100%              
+                    #galeriaNovedades
+                        clear both
+                        margin auto
+                        overflow hidden
+                        padding 10px
+                        width 950px         
+                        .gallery
+                            position relative
+                            .crsl-item
+                                background white
+                                div
+                                    padding 10px 10px 20px
+                                    h3
+                                        font-weight bold
+                                        padding 20px 10px
+                                    p
+                                        padding 0 10px 10px
+                                    a
+                                        padding 10px
+                                .mes-activo
+                                    opacity 1 !important
+                    .crsl-nav
+                        position absolute
+                        top 50%
+                        width 100%
+                        z-index 50;                           
+                        a.next
+                            color #999999
+                            position absolute
+                            padding 10px
+                            right 0
+                        a.previous
+                            color #999999
+                            position absolute
+                            padding 10px
+                            left 0
+                    .mes-activo
+                        opacity 1 !important                   
+            .masInfo
+                background #404040
+                display none
+                margin 0 auto
+                padding-top 40px
+                position relative
+                width 100%
+                #cierre
+                    position absolute
+                    top 10px
+                    right 10px
+                div
+                    margin 0 auto
+                    padding 0 20px 20px
+                    width 950px
+                    h3
+                        font-size 30px
+                        margin 20px
+                        width 80%
+                    p
+                        font-size 16px
+                        margin 20px
+                        width 80%
+                                                    
+        #postNovedades
+            background grisBe   
+            height 400px
+        #banner 
+            background white
+            color grisBe
+            padding 50px 0
+            clear both
+            width 100%
+            .marquee 
+                box-sizing border-box
+                color grisBe
+                margin 0 auto
+                overflow hidden 
+                white-space nowrap
+                width 100%
+                font-size 400px
+                padding-left em
+                position relative
+                text-transform uppercase
+                span 
+                    animation marquee 15s linear infinite
+                    display inline-block
+                    padding-left 100%
+                    text-indent 0
+                    &hover
+                        animation-play-state paused
+                
+                buton.slick-prev.slick-arrow
+                    color gris_clarito
+      
+        #formularioSolicitud  
+            clear both
+            display block 
+            overflow hidden
+            #barraFormulario
+                background grisBe
+                padding 20px 0
+                position relative
+                #botFormularioSolicitud
+                    color gris_oscuro
+                    display inline-block
+                    min-width 20px
+                    padding 0
+                    position absolute
+                    right 10px
+                    text-align right
+                    top 15px               
+                    width 3%
+                    &:hover 
+                        color gris_oscuro
+                #botFormulario h2
+                    border solid 1px
+                    color gris_oscuro
+                    margin 10px auto
+                    padding 10px
+                    text-align center
+                    text-transform uppercase
+                    width 200px
+                    &:hover
+                        color gris_oscuro      
+            #formulario2
+                display block
+                clear both
+                height 400px
+                margin 0 auto
+                max-width 1020px
+                overflow hidden
+                padding 10px
+                width 100%
+                h4 
+                    color white
+                    margin-left 20px
+                form
+                    padding 20px
+                    p.inputIcono   
+                        float left
+                        margin 1% 
+                        position relative  
+                        width 48%  
+                        left 0px
+                        top 0px
+                        height 37px
+                        display block
+                        .obligatorio 
+                            color white
+                            position absolute
+                            right -15px
+                            top 15px  
+                        input[type=text]
+                            background gris_F9
+                            border solid 1px verde
+                            box-sizing border-box
+                            float left 
+                            height 100%
+                            margin 5px
+                            outline none
+                            padding 8px 10px 8px 35px
+                            transition 0.3s                               
+                            width 100%
+                            -webkit-box-sizing border-box
+                            -moz-box-sizing border-box
+                        i 
+                            color verde
+                            position absolute
+                            left 15px
+                            top 15px
+                            padding-right 30px
+                        input[type=submit]
+                            background-color verde
+                            border none
+                            color white
+                            cursor pointer
+                            float right
+                            margin 0 auto
+                            padding 16px 32px
+                            width 50%
+                            
+                    p.inputArchivo 
+                        background gris_F9
+                        border solid 1px verde 
+                        display block 
+                        float left
+                        margin 15px
+                        padding 0 
+                        position relative  
+                        width 98%  
+                        box-sizing border-box
+                        -webkit-box-sizing border-box
+                        -moz-box-sizing border-box
+                        .explicacion 
+                            color gris_oscuro
+                            display block
+                            font-size 15px
+                            font-weight normal
+                            position absolute
+                            top 15px
+                            left 40px 
+                        label 
+                            background-color verde
+                            color white
+                            display block
+                            float right
+                            height 100%
+                            padding 15px
+                            &:hover
+                            &:focus 
+                                background-color gris_oscuro 
+                        i 
+                            color verde
+                            position absolute
+                            left 15px
+                            top 15px
+                            padding-right 30px                  
+                    input[type=file]
+                        cursor pointer        
+                        width 0.1px
+                        height 0.1px
+                        opacity 0
+                        overflow hidden
+                        position absolute
+                        z-index -1
+                    p.inputCheckbox
+                        display block
+                        float left
+                        left 0px
+                        margin 1% 
+                        position relative  
+                        top 0px
+                        width 48%  
+                        input[type=checkbox]
+                            margin-left 10px
+                        .txtCheckbox 
+                            color gris_oscuro
+                            font-size .8em
+                        
+              
+footer 
+    background gris_oscuro
+    clear both
+    padding 50px 0
+    a   
+        color blanco  
+    ul#bloquesFooter
+        display block 
+        margin 0 auto
+        width 80%
+        li  
+            // background orange
+            display inline-block
+            margin 0 0 0 1%
+            vertical-align top
+            width 23%
+            h5 
+                padding 10px
+                text-transform uppercase
+            li 
+                display block
+                padding 5px 10px
+                width 100%
+                p 
+                    font-size 11px
+                    a   
+                        color white
+                        &:hover
+                            color verde
+                    
+.boxSeccion
+    display block
+    clear both
+    margin 0 auto
+    min-height 900px
+    max-width 1020px
+    overflow hidden
+    padding 50px 2%
+    width 96%
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media (max-width: 768px) //tablets
+    #miHeader 
+        .mobile-toggle
+            display initial
+        #navHeader
+            display none
+            padding 0
+            & ul li a
+                display none
+            &.open-nav 
+                background-color white
+                display block
+                width 100%
+                & ul li
+                    margin 5px
+                    width 100%
+                    a
+                        display initial
+                        padding 10px
+                        margin 0px
+                        width 100%
+    //cuerpo
+    #miContenedor section #frase #franja h4                    
+        width 80%
+    #miContenedor section 
+        #frase #presentacion
+            margin 10px auto
+            position relative
+            width 100%
+            #textos .bloquePresentacion
+                margin 0 2%
+                width 60%
+            #imagen.bloquePresentacion
+                display block
+                margin 1%
+                padding 10px
+                position absolute
+                top 20px
+                right 20px
+                vertical-align top
+                width 30%
+        h2
+            margin 10px 20px
+        #historia
+            h2 
+                margin-top 30px
+            ul#numeros
+                margin-left 6%
+                margin-right 5%
+                width 90%
+                li
+                    margin 1% 1% 1% 0
+                    text-align center
+                    width 31%
+            #lineaTiempo
+                margin-left 6%
+                margin-right 5%
+                width 90%
+                #example
+                    margin 0 auto
+                    width 95%
+        #centros
+            margin 0 auto
+            position relative
+            width 100%
+        #consultoria 
+            margin 20px auto
+            position relative
+            width 100%
+            #boxConsultoria
+                margin-left 10px
+                width 46%
+            #formulario
+                width 50%
+                input[type=text]
+                    width 100%
+                    
+    
+        #novedades
+            .boxSeccionNovedades #contenedorNovedades
+                margin auto
+                width 96%
+                #galeriaNovedades
+                    margin auto
+                    width 96%
+            .masInfo
+                width 100%
+                div
+                    width 90%
+    .boxSeccion
+        margin 0 auto
+        padding 0
+        width 100%
+@media (max-width: 375px) //mobile 
+    #miContenedor
+        section 
+            h2 
+                margin 0
+                text-align center
+            #inicio #barraGris 
+                display block
+                ul#headerRedes
+                    margin-left 10px
+                    padding 0
+                    width 40%
+                ul#circulitos
+                    font-size 16px
+                    margin-right 10px
+                    width 50%
+            
+            #historia
+                ul#numeros
+                    margin-left 5%
+                    width 96%
+                    li 
+                        width 45%
+                        i
+                            width 100%
+            #centros 
+                #menuCentros li:first-child
+                    padding-right 0
+                #menuCentros li a#centrosIntegrales
+                #menuCentros li a#centrosServicios
+                #menuCentros li:last-child
+                    display none 
+                #mapa
+                    display none
+                #referencias 
+                    margin 50px 0 20px 20px
+                    padding-top 0
+                    width 80%
+            #consultoria 
+                #boxConsultoria
+                    display none
+                #formulario
+                    margin 10px 2%
+                    width 96%
+            #novedades 
+                #box2
+                    background grey
+                    margin 20px auto
+                    width 60%
+            #formularioSolicitud  
+                #formulario2
+                    height 450px
+                    form
+                        p.inputIcono
+                            margin 1%
+                            width 98%
+                        p.inputArchivo
+                            margin 10px 
+                            & .explicacion 
+                                font-size 10px
+                                top 17px
+                                left 40px 
+                                i 
+                                    padding-right 10px 
+    
+    footer  
+        padding 20px 10px
+        ul#bloquesFooter
+            margin  0 auto
+            width 96%
+            li  
+                width 49%
+                li 
+                    padding 0
+                    margin 10px auto
+                    width 100%
+               
+//clases generales
+
+.fondoVerde
+    background verde
+.fondoGrisClarito
+    background gris_clarito
+.fondoGrisBe
+    background grisBe
+.fondoGrisMedio
+    background gris_medio
+.txtBlanco
+    color white
+.txtVerde
+    color verde 
+.txtGrisClarito
+    color gris_clarito
+.txtGrisMedio
+    color gris_medio
+.txtGrisOscuro
+    color gris_oscuro
+.txtGris9
+    color gris_9
+.txtNegro
+    color black
+.txtCeleste 
+    color celeste
+.txtNaranja 
+    color naranja
+.txt11
+    font-size 11px
+.txtNegrita
+    font-weight bold
+.floatRight
+    float right
+.floatLeft
+    float left
